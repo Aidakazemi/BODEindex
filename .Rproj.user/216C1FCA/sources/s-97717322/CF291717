@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3653610996",
+    "hash" : "1373413125",
     "id" : "CF291717",
-    "lastKnownWriteTime" : 1570227732,
-    "last_content_update" : 1570227732,
+    "lastKnownWriteTime" : 1570230709,
+    "last_content_update" : 1570230709706,
     "path" : "~/CORE_ AIDA/BODEindex/DESCRIPTION",
     "project_path" : "DESCRIPTION",
     "properties" : {
+        "cursorPosition" : "13,0",
+        "scrollLine" : "0"
     },
     "relative_order" : 2,
     "source_on_save" : false,
