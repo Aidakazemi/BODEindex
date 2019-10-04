@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570227736277.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B464FA27",
+    "lastKnownWriteTime" : 1570227918,
+    "last_content_update" : 1570227918021,
+    "path" : "~/CORE_ AIDA/BODEindex/R/BODEindex.R",
+    "project_path" : "R/BODEindex.R",
+    "properties" : {
+        "cursorPosition" : "17,1",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
