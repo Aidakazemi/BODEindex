@@ -22,7 +22,7 @@ devtools::install_github("resplab/BODEindex")
 
 BODEindex is also available as web app, accessible at [http://resp.core.ubc.ca/ipress/BODEindex](http://resp.core.ubc.ca/ipress/BODEindex)
 
-# BODEIndex
+# BODE Index
 
 To get BODE index, you will need to pass in patient's risk factors. For example: 
 
