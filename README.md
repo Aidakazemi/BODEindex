@@ -11,7 +11,7 @@ R package for the BODE (body-mass index, airflow obstruction, dyspnea, and excer
 You can download the latest development version from GitHub:
 
 ```
-install.packages("BODEindex")
+install.packages("devtools")
 devtools::install_github("resplab/BODEindex")
 ```
 
