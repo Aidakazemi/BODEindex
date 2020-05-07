@@ -10,13 +10,13 @@
 BODEindex(FEV1, mMRC, BMI, walk)
 }
 \arguments{
-\item{FEV1}{a number for forced expiratory volume in one second (FEV1) expressed as percentage}
+\item{FEV1}{A number for forced expiratory volume in one second (FEV1) expressed as percentage}
 
-\item{mMRC}{a number for the dyspnea scale of modified Medical Research Council (mMRC)}
+\item{mMRC}{A number for the dyspnea scale of modified Medical Research Council (mMRC)}
 
-\item{BMI}{a number for Body Mass Index}
+\item{BMI}{A number for Body Mass Index}
 
-\item{walk}{a number for distance walked in 6 minutes (in meter)}
+\item{walk}{A number for distance walked in 6 minutes (in meter)}
 }
 \description{
 The BODE Index in COPD
