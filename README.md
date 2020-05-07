@@ -21,7 +21,7 @@ remotes::install_github("resplab/BODEindex")
 To get BODE index, you will need to pass in patient's risk factors. For example: 
 
 ```
-BODEindex (FEV1 = 40, mMRC = 3, BMI = 22, walk = 100)
+bode (FEV1 = 40, mMRC = 3, BMI = 22, walk = 100)
 ```
 
 The ***BODEindex()*** function returns score with possible values range from 0 to 10, with higher scores indicating a higher risk of death from any and respiratory causes in COPD patients.

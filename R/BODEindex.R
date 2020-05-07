@@ -6,12 +6,12 @@
 #' @param walk A number for distance walked in 6 minutes (in meter)
 #'
 #' @examples
-#' BODEindex (FEV1 = 40, mMRC = 3, BMI = 22, walk = 100)
-#' BODEindex (FEV1 = 60, mMRC = 1, BMI = 19, walk = 200)
+#' bode (FEV1 = 40, mMRC = 3, BMI = 22, walk = 100)
+#' bode (FEV1 = 60, mMRC = 1, BMI = 19, walk = 200)
 #'
 #' @source \url{https://www.ncbi.nlm.nih.gov/pubmed/14999112}
 
-BODEindex <-  function (FEV1, mMRC, BMI, walk) {
+bode <-  function (FEV1, mMRC, BMI, walk) {
 
 
 
