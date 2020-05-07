@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/resplab/BODEindex.svg?branch=master)](https://travis-ci.org/resplab/BODEindex)
-[![CRAN Status](https://www.r-pkg.org/badges/version/BODEindex)](https://cran.r-project.org/web/packages/BODEindex/index.html)
+[![Build Status](https://travis-ci.org/resplab/bode.svg?branch=master)](https://travis-ci.org/resplab/bode)
+[![CRAN Status](https://www.r-pkg.org/badges/version/bode)](https://cran.r-project.org/package=bode)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
-## BODEindex
+## bode
 
 R package for the BODE (body-mass index, airflow obstruction, dyspnea, and excercise capacity index) index: predicts the risk of death from any and respiratory causes in COPD patients described in [https://www.nejm.org/doi/full/10.1056/nejmoa021322](https://www.nejm.org/doi/full/10.1056/nejmoa021322).
 
@@ -11,8 +11,8 @@ R package for the BODE (body-mass index, airflow obstruction, dyspnea, and excer
 You can download the latest development version from GitHub:
 
 ```
-install.packages("devtools")
-devtools::install_github("resplab/BODEindex")
+install.packages("remotes")
+remotes::install_github("resplab/BODEindex")
 ```
 
 
