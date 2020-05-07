@@ -29,10 +29,22 @@ The ***BODEindex()*** function returns score with possible values range from 0 t
 ### Cloud-based API Access
 The [PRISM platform](http://prism.resp.core.ubc.ca) allows users to access BODEindex through the cloud. A MACRO-enabled Excel-file can be used to interact with the model and see the results. To download the PRISM Excel template file for BODEindex please refer to the [PRISM model repository](http://resp.core.ubc.ca/ipress/prism).
 
-Example API call in Ubuntu:
+#### Linux
+
+In Ubuntu, you can call the API with `curl`:
+
 ```
 curl -X POST -H "Content-Type: application/json" -d '{"api_key":["123456"],"func":["prism_model_run"],"model_input":[{"FEV1": 40,"mMRC": 3,"BMI": 22,"walk": 100}]}' http://bode.cp.prism-ubc.linaralabs.com/ocpu/library/bodePrism/R/gateway/json
 ```
+
+#### Windows
+
+In Windows PowerShell, you can use `curl` to access the API:
+
+```
+curl -Body '{"api_key":["123456"],"func":["prism_model_run"],"model_input":[{"FEV1": 40,"mMRC": 3,"BMI": 22,"walk": 100}]}' -Method POST -uri http://bode.cp.prism-ubc.linaralabs.com/ocpu/library/bodePrism/R/gateway/json -Headers @{"Content-type"="application/json"}
+```
+
 
 ### Citation
 
