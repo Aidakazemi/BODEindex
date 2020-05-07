@@ -1,7 +1,7 @@
-Package: BODEindex
+Package: bode
 Type: Package
 Title: The BODE (body-mass index, airflow obstruction, dyspnea, and excercise capacity index) Index: predicts the risk of death from any and respiratory causes in COPD patients on <doi:10.1056/NEJMoa021322>
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: c(
     person("Aida", "Kazemi", email = "aidakazemi10@gmail.com", role = c("aut", "cph")),
     person("Amin", "Adibi", email = "adibi@alumni.ubc.ca", role = c("aut", "cre")))
