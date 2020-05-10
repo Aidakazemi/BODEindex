@@ -1,5 +1,6 @@
-[![Build Status](https://travis-ci.org/resplab/bode.svg?branch=master)](https://travis-ci.org/resplab/bode)
-[![CRAN Status](https://www.r-pkg.org/badges/version/bode)](https://cran.r-project.org/package=bode)
+ <!-- badges: start -->
+  [![R build status](https://github.com/resplab/bode/workflows/R-CMD-check/badge.svg)](https://github.com/resplab/bode/actions)
+  <!-- badges: end -->[![CRAN Status](https://www.r-pkg.org/badges/version/bode)](https://cran.r-project.org/package=bode)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 ## bode
