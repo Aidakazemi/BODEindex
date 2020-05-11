@@ -6,7 +6,7 @@ Authors@R: c(
     person("Aida", "Kazemi", email = "aidakazemi10@gmail.com", role = c("aut", "cph")),
     person("Amin", "Adibi", email = "adibi@alumni.ubc.ca", role = c("aut", "cre")))
 Maintainer: Amin Adibi <adibi@alumni.ubc.ca>
-Description: The BODE (body-mass index, airflow obstruction, dyspnea, and exercise capacity) index predicts mortality risk in Chronic Obstructive Pulmonary Disease (COPD) patients <doi:10.1056/NEJMoa021322>.
+Description: The BODE (body-mass index, airflow obstruction, dyspnea, and exercise capacity) index predicts mortality risk in Chronic Obstructive Pulmonary Disease (COPD) patients based on the risk score published in Celli et al. (2004) <doi:10.1056/NEJMoa021322>.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
