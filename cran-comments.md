@@ -5,3 +5,6 @@
 
 ## R CMD check results
 There were no ERRORs, WARNINGs, or NOTES. 
+
+## Changes
+DESCRIPTION file revised to meet CRAN requirements.
