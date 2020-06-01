@@ -34,15 +34,12 @@ The [PRISM platform](http://prism.resp.core.ubc.ca) allows users to access BODEi
 In Ubuntu, you can call the API with `curl`:
 
 ```
-curl -X POST -H "Content-Type: application/json" -d '{"api_key":["123456"],"func":["prism_model_run"],"model_input":[{"FEV1": 40,"mMRC": 3,"BMI": 22,"walk": 100}]}' http://bode.cp.prism-ubc.linaralabs.com/ocpu/library/bodePrism/R/gateway/json
-```
-
-#### Windows
-
-In Windows PowerShell, you can use `curl` to access the API:
-
-```
-curl -Body '{"api_key":["123456"],"func":["prism_model_run"],"model_input":[{"FEV1": 40,"mMRC": 3,"BMI": 22,"walk": 100}]}' -Method POST -uri http://bode.cp.prism-ubc.linaralabs.com/ocpu/library/bodePrism/R/gateway/json -Headers @{"Content-type"="application/json"}
+curl \
+-X POST \
+-H "x-prism-auth-user: REPLACE_WITH_API_KEY" \
+-H "Content-Type: application/json" \
+-d '{"func":["prism_model_run"],"model_input":[{"FEV1": 40,"mMRC": 3,"BMI": 22,"walk": 100}]}' \
+https://admin-prism-api.cp.prism-ubc.linaralabs.com/route/bode/run
 ```
 
 
