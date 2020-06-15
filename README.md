@@ -21,6 +21,7 @@ remotes::install_github("resplab/bode")
 To get BODE index, you will need to pass in patient's risk factors. For example: 
 
 ```
+library(bode)
 bode (FEV1 = 40, mMRC = 3, BMI = 22, walk = 100)
 ```
 
