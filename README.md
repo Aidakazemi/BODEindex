@@ -40,7 +40,7 @@ curl \
 -H "x-prism-auth-user: REPLACE_WITH_API_KEY" \
 -H "Content-Type: application/json" \
 -d '{"func":["prism_model_run"],"model_input":[{"FEV1": 40,"mMRC": 3,"BMI": 22,"walk": 100}]}' \
-https://admin-prism-api.cp.prism-ubc.linaralabs.com/route/bode/run
+https://prism.peermodelsnetwork.com/route/bode/run
 ```
 
 
